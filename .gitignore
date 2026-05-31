@@ -1,0 +1,28 @@
+# --------------------
+# SECRETS & CREDENTIALS
+# --------------------
+.env
+token.json
+credentials.json
+
+# --------------------
+# PYTHON CACHE & VENV
+# --------------------
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+
+# --------------------
+# W&B / WEAVE LOGS
+# --------------------
+wandb/
+weave/
+
+# --------------------
+# OS FILES
+# --------------------
+.DS_Store
+Thumbs.db
